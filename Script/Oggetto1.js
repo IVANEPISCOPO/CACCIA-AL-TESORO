@@ -16,6 +16,4 @@ password": password
 .catch((error) =>  { 
   console.error('Errore:', error);
  });
-
-}
-
+ </script>
