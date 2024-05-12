@@ -6,8 +6,7 @@ fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad', {
 'Content-Type':'application/json'
  },
  body: JSON.stringify({
-"username": username,
-password": password
+{nome: "Thundermen", "Anno inzio produzione": 2012, "Anno fine produzione": 2015}
     })
 })
  
