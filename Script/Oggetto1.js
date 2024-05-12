@@ -8,6 +8,16 @@ fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad', {
  body: JSON.stringify({
 {nome: "Thundermen", "Anno inzio produzione": 2012, "Anno fine produzione": 2015}
     })
+ :
+[
+{ "nome": "colori", "attributo": "Primario" },
+{ "nome": "colori", "attributo": "Secondario" }
+]
+ { "Materie_scolastiche": "Matematica","Scienze": [
+{ "Professoressa": "Valeria", "cognome": "Bianchi" },
+{ "Professoressa": "Maria", "cognome": "Verdi" }
+]
+}
 })
  
 .then (response =› response.json()) // converte la risposta in JSON
