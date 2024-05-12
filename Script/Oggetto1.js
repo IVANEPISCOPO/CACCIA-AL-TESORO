@@ -12,10 +12,16 @@ fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad', {
 [
 { "nome": "colori", "attributo": "Primario" },
 { "nome": "colori", "attributo": "Secondario" }
+{ "nome": "colori", "attributo": "Chiari" },
+{ "nome": "colori", "attributo": "Scuri" }
+ 
 ]
- { "Materie_scolastiche": "Matematica","Scienze": [
+{ "Materie_scolastiche": "Matematica","Scienze","Italiano","Geografia": [
 { "Professoressa": "Valeria", "cognome": "Bianchi" },
 { "Professoressa": "Maria", "cognome": "Verdi" }
+{ "Professoressa": "Giulia", "cognome": "Franco" },
+{ "Professoressa": "Benedda", "cognome": "Colonna" }
+ 
 ]
 }
 })
